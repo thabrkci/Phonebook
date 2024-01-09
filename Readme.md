@@ -15,7 +15,8 @@ Kullanabilmeniz veya inceleyebilmeniz için toplamda 5 kişi rehberde,kayıtlı 
 Kullandığım anahtar kelimeler ve metotların kullanım amaçları ve detayları yorum satırlarında bulunmakta.
 ***
 Herkese başarılar dilerim.
-***
+****
+>English
 ****
 ```Greetings to everyone,```
  I tried to write a console phone book application for you, thank you very much for your valuable comments.
