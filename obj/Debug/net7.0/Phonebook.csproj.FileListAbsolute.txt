@@ -1,0 +1,14 @@
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\bin\Debug\net7.0\Phonebook.exe
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\bin\Debug\net7.0\Phonebook.deps.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\bin\Debug\net7.0\Phonebook.runtimeconfig.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\bin\Debug\net7.0\Phonebook.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\bin\Debug\net7.0\Phonebook.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\Phonebook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\Phonebook.AssemblyInfoInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\Phonebook.AssemblyInfo.cs
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\Phonebook.csproj.CoreCompileInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\Phonebook.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\refint\Phonebook.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\Phonebook.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\Phonebook.genruntimeconfig.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Phonebook\obj\Debug\net7.0\ref\Phonebook.dll
