@@ -28,7 +28,7 @@ namespace Phonebook
                 Console.WriteLine("Invalid phone number. Please enter a valid number");
             }
 
-            // Update the phonebook with the new information for the person.
+            // Update the phonebook with the new information for the person.And added Phonebook dictionary
             Phonebook[Newname] = (Newsurname, Newphonenumber);
 
             // Display a message indicating that the person's information has been updated successfully.
