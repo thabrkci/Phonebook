@@ -48,7 +48,7 @@ namespace Phonebook
                         break;
                     case "4":
                         // Call the ListThebook method from the Listthebook class to list phonebook entries in alphabetical order.
-                        Listthebook.Listedthebook(Phonebook, "A-Z");
+                        Listthebook.Listedthebook(Phonebook,"A-Z,Z-A");
                         break;
                     case "5":
                         // Call the Searchnumbers method from the Searchnumber class to search for phonebook entries.
