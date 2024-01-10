@@ -11,8 +11,8 @@ namespace Phonebook
         public static void Searchnumbers(Dictionary<string, (string surname, long phonenumber)> Phonebook)
         {
             // Prompt the user to select the type of search.
-            Console.WriteLine("Select the type you want to search for.");
-            Console.WriteLine("|--To search by first or last name: (1)--|\n|-To search by phone number: (2)-|");
+            Console.WriteLine("||>>Select the type you want to search for.<<||");
+            Console.WriteLine("|-<>- To search by first or last name: (1)--|\n|-To search by phone number: (2) -<>-|");
 
             // Read the user's choice for the type of search.
             string? Choosenumber = Console.ReadLine();

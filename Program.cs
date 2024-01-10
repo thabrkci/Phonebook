@@ -56,7 +56,7 @@ namespace Phonebook
                         break;
                     case "6":
                         // Display a farewell message and exit the application.
-                        Console.WriteLine("Goodbye! Mr. Or Mrs. Exiting the Phonebook ");
+                        Console.WriteLine("<<--|||Goodbye! Mr. Or Mrs. Exiting the Phonebook|||-->> ");
                         return;
                     default:
                         // Display an error message for an invalid choice.

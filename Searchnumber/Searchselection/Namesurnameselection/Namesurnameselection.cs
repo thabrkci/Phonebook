@@ -14,7 +14,7 @@ namespace Phonebook
             while (true)
             {
                 // Prompt user to enter a name or surname
-                Console.Write("Enter the name or surname of the person you want to search for in the directory\n--->");
+                Console.Write("|>>>Enter the name or surname of the person you want to search for in the directory<<<|\n--->");
                 string? Searchnamesurname = Console.ReadLine();
                 Console.WriteLine("");
 
@@ -39,7 +39,7 @@ namespace Phonebook
                     // Display information for each matching record
                     foreach (var person in Namesurnamelist)
                     {
-                        Console.WriteLine($"Name: {person.Key} Surname: {person.Value.Item1} Phonenumber: {person.Value.Item2}");
+                        Console.WriteLine($"<|><-> Name: {person.Key} Surname: {person.Value.Item1} Phonenumber: {person.Value.Item2} <-><|>");
                     }
                 }
                 else
@@ -49,7 +49,7 @@ namespace Phonebook
                 }
 
                 // Prompt user to search again or exit
-                Console.WriteLine("Do you want to search again? (y/n)");
+                Console.WriteLine("-*-*- Do you want to search again? (y/n) -*-*-");
                 string? lookorcontinue = Console.ReadLine();
 
                 // Check if the user wants to exit the loop

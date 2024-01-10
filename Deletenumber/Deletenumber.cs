@@ -36,7 +36,7 @@ namespace Phonebook
                     var Listed = Lists.First();
 
                     // Ask for confirmation to delete the person from the contacts.
-                    Console.WriteLine($" Name: {{{Listed.Key}}} Surname: {{{Listed.Value.Item1}}} The person is about to be deleted from the contacts, do you approve? (y/n).");
+                    Console.WriteLine($"|||--> Name: {{{Listed.Key}}} Surname: {{{Listed.Value.Item1}}} The person is about to be deleted from the contacts, do you approve? (y/n). <--|||");
 
                     // Read the confirmation from the user.
                     string? Confirm = Console.ReadLine().ToLower();
@@ -46,7 +46,7 @@ namespace Phonebook
                     {
                         // Remove the person from the phonebook.
                         Phonebook.Remove(Listed.Key);
-                        Console.WriteLine($"Name: {{{Listed.Key}}} Surname: {{{Listed.Value.Item1}}} person with the first and last name has been deleted ");
+                        Console.WriteLine($"|||--> Name: {{{Listed.Key}}} Surname: {{{Listed.Value.Item1}}} person with the first and last name has been deleted <--|||");
                     }
                     else
                     {
