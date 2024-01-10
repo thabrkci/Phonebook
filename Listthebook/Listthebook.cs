@@ -2,27 +2,23 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Phonebook
+namespace Phonebook;
+public class Listthebook
 {
-    // The Listthebook class is responsible for displaying the phonebook entries in a sorted order.
-    public class Listthebook
+    public static void Listedthebook(Dictionary<string, (string, long)> Phonebook, string list)
     {
-        // The ListThebook method displays the phonebook entries based on the specified sorting order.
-        public static void ListThebook(Dictionary<string, (string, long)> Phonebook, string list)
+        Console.WriteLine("|--To list the phone book in A-Z format: (1)--|\n |--To list the phone book in A-Z format: (2)--|");
+        string? Chooselist = Console.ReadLine();
+        switch (Chooselist)
         {
-            // Determine the sorting order based on the provided string.
-            var Lists = list == "A-Z"
-                ? Phonebook.OrderBy(x => x.Key)
-                : Phonebook.OrderByDescending(x => x.Key);
-
-            // Display a header for the phonebook list.
-            Console.WriteLine("|||---PhoneBook List---|||");
-
-            // Iterate through the sorted phonebook entries and display each one.
-            foreach (var enter in Lists)
-            {
-                Console.WriteLine($"******\n Name: :{{{enter.Key}}} Surname: {{{enter.Value.Item1}}} Phonenumber: {{{enter.Value.Item2}}}\n ******");
-            }
+            case "1":
+                ListAZ.ListtheAZ(Phonebook, "A-Z");
+                break;
+            case "2":
+                ListZA.ListtheZA(Phonebook, "Z-A");
+                break;
         }
+
+
     }
 }

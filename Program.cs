@@ -14,11 +14,11 @@ namespace Phonebook
             Dictionary<string, (string, long)> Phonebook = new Dictionary<string, (string, long)>();
 
             // Add some initial entries to the phonebook for demonstration purposes.
-            Phonebook.Add("Taha", ("BOREKCI", 5446949377));
+            Phonebook.Add("Taha", ("BOREKCI", 085099980257));
             Phonebook.Add("John", ("WICK", 5889666666));
             Phonebook.Add("Alfred", ("CASTLE", 9116663252));
-            Phonebook.Add("Martın", ("TEXAS", 5446949377));
-            Phonebook.Add("Lucas", ("SOLDIER", 5446949377));
+            Phonebook.Add("Martın", ("TEXAS", 5866949479));
+            Phonebook.Add("Lucas", ("SOLDIER", 53469999277));
 
             // Use a loop to allow the user to perform various actions until they choose to exit.
             while (true)
@@ -48,7 +48,7 @@ namespace Phonebook
                         break;
                     case "4":
                         // Call the ListThebook method from the Listthebook class to list phonebook entries in alphabetical order.
-                        Listthebook.ListThebook(Phonebook, "A-Z");
+                        Listthebook.Listedthebook(Phonebook, "A-Z");
                         break;
                     case "5":
                         // Call the Searchnumbers method from the Searchnumber class to search for phonebook entries.
