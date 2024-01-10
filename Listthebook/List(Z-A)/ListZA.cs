@@ -12,8 +12,8 @@ namespace Phonebook
         {
             // Determine the sorting order based on the provided string.
             var Listza = list == "Z-A"
-                ? Phonebook.OrderBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value)
-                : Phonebook.OrderByDescending(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
+                ? Phonebook.OrderByDescending(x => x.Key).ToDictionary(x => x.Key, x => x.Value)
+                : Phonebook.OrderBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
 
             // Display a header for the phonebook list.
             Console.WriteLine("|||---PhoneBook List (Z-A)---|||");
