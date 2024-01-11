@@ -17,7 +17,7 @@ namespace Phonebook
             Phonebook.Add("Taha", ("BOREKCI", 085099980257));
             Phonebook.Add("John", ("WICK", 5889666666));
             Phonebook.Add("Alfred", ("CASTLE", 9116663252));
-            Phonebook.Add("Martın", ("TEXAS", 5866949479));
+            Phonebook.Add("Martin", ("TEXAS", 5866949479));
             Phonebook.Add("Lucas", ("SOLDIER", 53469999277));
 
             // Use a loop to allow the user to perform various actions until they choose to exit.
